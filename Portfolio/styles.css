@@ -1,5 +1,79 @@
 body{
     background-color: #a6bab7;
     color: #08172e;
-    font-family: 'Inknut Anitqua';
+    margin:0;
+}
+.header{
+    padding: 2rem;
+    background-color: #08172e;
+    color: #f08080;
+    position: relative;
+}
+.header img{
+    max-width: 10%;
+    align-content: center;
+    position: absolute;
+}
+.scallops{
+    background-color:#a6bab7;
+    display: flex;
+    justify-content: center;
+}
+.scallops a{
+    background-color:#08172e;
+    color:#a6bab7;
+    padding: 1rem 5rem;
+    border-bottom-left-radius: 2000rem;
+    border-bottom-right-radius: 2000rem;
+    flex: 1;
+    text-align: center;
+}
+a:hover{
+    color:#f08080;
+}
+main{
+    padding: 2rem;
+}
+.carrie img{
+    max-width: 70%;
+    display: block;
+    margin:auto;
+}
+h1{
+    font-family: 'Almendra SC', sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+footer{
+    background-color:#08172e;
+    color: #a6bab7;
+    padding: 2rem;
+    position: relative;
+}
+footer img{
+    max-width: 20%;
+    position: absolute;
+    right: 7%;
+    top: 30%;
+}
+.gallery{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 2rem;
+    padding: 0 0 5rem 0;
+}
+.gallery div{
+    background-color: #08172e;
+    color: #a6bab7;
+    display: grid;
+    grid-template-columns: 100;
+    grid-template-rows: 90% 10%;
+    align-items: center;
+}
+.gallery img{
+    max-width: 50%;
+    max-height: 4rem;
 }
